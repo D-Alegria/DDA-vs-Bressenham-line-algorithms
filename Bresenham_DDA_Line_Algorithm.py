@@ -70,6 +70,7 @@ class DDA:
             yield self.pixel1.x + xInc, self.pixel1.y + yInc
             self.pixel1.x += xInc
             self.pixel1.y += yInc
+            
 
     def drawline(self):
         turtle.Screen()
