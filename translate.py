@@ -18,5 +18,5 @@ def drawTriangle(points = [(0.00,0.00), (100.00,0.00), (50.00,86.60)]):
     
     return points
 
-translate(factor=[200,2])
+translate(factor=[100,100])
 turtle.done()
